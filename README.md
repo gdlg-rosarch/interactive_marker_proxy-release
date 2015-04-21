@@ -1,3 +1,24 @@
+## interactive_marker_proxy (jade) - 0.1.2-0
+
+The packages in the `interactive_marker_proxy` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade interactive_marker_proxy --new-track` on `Tue, 21 Apr 2015 18:00:17 -0000`
+
+The `interactive_marker_proxy` package was released.
+
+Version of package(s) in repository `interactive_marker_proxy`:
+- upstream repository: https://github.com/RobotWebTools/interactive_marker_proxy.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## interactive_marker_proxy (hydro) - 0.1.2-0
 
 The packages in the `interactive_marker_proxy` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro interactive_marker_proxy --new-track` on `Thu, 12 Jun 2014 14:25:30 -0000`
