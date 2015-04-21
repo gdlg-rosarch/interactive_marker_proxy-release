@@ -1,0 +1,36 @@
+ros-jade-interactive-marker-proxy (0.1.2-0vivid) vivid; urgency=high
+
+  * cleanup
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Mon, 09 Jun 2014 04:00:00 -0000
+
+ros-jade-interactive-marker-proxy (0.1.1-0vivid) vivid; urgency=high
+
+  * added install target
+  * Contributors: David Gossow
+
+ -- Russell Toris <rctoris@wpi.edu>  Wed, 13 Feb 2013 05:00:00 -0000
+
+ros-jade-interactive-marker-proxy (0.1.0-0vivid) vivid; urgency=high
+
+  * fixed dependencies etc in package.xml/CMakelists
+  * better target name to avoid cmake conflict
+  * catkinized package
+  * Merge pull request #1 from KaijenHsiao/master
+    added stuff to manifest to make rosmake happy
+  * added stuff to manifest
+  * removed tf transformation of frame-fixed int.markers from im proxy
+  * Merge branch 'master' of github.com:dgossow/interactive_marker_proxy
+  * added change detection for frame-fixed markers: only generate pose when translation/rotation changes
+  * im proxy: store pose in case of update message and for frame-locked pose update
+  * Update README.md
+  * print status only once
+  * added Makefile and manifest
+  * initial commit
+  * Initial commit
+  * Contributors: David Gossow, Kaijen Hsiao
+
+ -- Russell Toris <rctoris@wpi.edu>  Wed, 02 Jan 2013 05:00:00 -0000
+
+

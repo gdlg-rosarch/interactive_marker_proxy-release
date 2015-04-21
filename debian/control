@@ -1,0 +1,12 @@
+Source: ros-jade-interactive-marker-proxy
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-interactive-markers, ros-jade-message-generation, ros-jade-roscpp, ros-jade-visualization-msgs
+Homepage: http://wiki.ros.org/interactive_marker_proxy
+Standards-Version: 3.9.2
+
+Package: ros-jade-interactive-marker-proxy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-interactive-markers, ros-jade-message-runtime, ros-jade-roscpp, ros-jade-visualization-msgs
+Description: A Proxy Server for Interactive Markers
