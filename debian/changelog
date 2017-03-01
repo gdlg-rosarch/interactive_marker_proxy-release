@@ -1,0 +1,36 @@
+ros-kinetic-interactive-marker-proxy (0.1.2-0jessie) jessie; urgency=high
+
+  * cleanup
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Sun, 08 Jun 2014 22:00:00 -0000
+
+ros-kinetic-interactive-marker-proxy (0.1.1-0jessie) jessie; urgency=high
+
+  * added install target
+  * Contributors: David Gossow
+
+ -- Russell Toris <rctoris@wpi.edu>  Tue, 12 Feb 2013 23:00:00 -0000
+
+ros-kinetic-interactive-marker-proxy (0.1.0-0jessie) jessie; urgency=high
+
+  * fixed dependencies etc in package.xml/CMakelists
+  * better target name to avoid cmake conflict
+  * catkinized package
+  * Merge pull request #1 from KaijenHsiao/master
+    added stuff to manifest to make rosmake happy
+  * added stuff to manifest
+  * removed tf transformation of frame-fixed int.markers from im proxy
+  * Merge branch 'master' of github.com:dgossow/interactive_marker_proxy
+  * added change detection for frame-fixed markers: only generate pose when translation/rotation changes
+  * im proxy: store pose in case of update message and for frame-locked pose update
+  * Update README.md
+  * print status only once
+  * added Makefile and manifest
+  * initial commit
+  * Initial commit
+  * Contributors: David Gossow, Kaijen Hsiao
+
+ -- Russell Toris <rctoris@wpi.edu>  Tue, 01 Jan 2013 23:00:00 -0000
+
+
