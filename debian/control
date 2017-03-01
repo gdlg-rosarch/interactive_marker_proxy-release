@@ -1,0 +1,12 @@
+Source: ros-kinetic-interactive-marker-proxy
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-interactive-markers, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-visualization-msgs
+Homepage: http://wiki.ros.org/interactive_marker_proxy
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-interactive-marker-proxy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-interactive-markers, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-visualization-msgs
+Description: A Proxy Server for Interactive Markers
