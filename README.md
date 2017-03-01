@@ -1,3 +1,26 @@
+## interactive_marker_proxy (kinetic) - 0.1.2-0
+
+The packages in the `interactive_marker_proxy` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release interactive_marker_proxy --track kinetic --rosdistro kinetic --new-track` on `Wed, 01 Mar 2017 20:18:49 -0000`
+
+The `interactive_marker_proxy` package was released.
+
+Version of package(s) in repository `interactive_marker_proxy`:
+
+- upstream repository: https://github.com/RobotWebTools/interactive_marker_proxy.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.24`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## interactive_marker_proxy (jade) - 0.1.2-0
 
 The packages in the `interactive_marker_proxy` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade interactive_marker_proxy --new-track` on `Tue, 21 Apr 2015 18:00:17 -0000`
